@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Harmattan&family=Itim&family=Jolly+Lodger&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a,
+button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.container-second {
+  margin: 0 auto;
+  max-width: 1060px;
+}
+
+.title-section {
+  font-family: "Jolly Lodger";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+  color: #f29d35;
+  text-align: center;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title-section-span {
+  color: #f24b4b;
+}
+
+.header {
+  background: #4112a6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 7px 6px rgba(0, 0, 0, 0.25);
+  padding: 25px 0;
+}
+
+.header__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__logo-text {
+  font-family: "Jolly Lodger";
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+  text-transform: uppercase;
+  color: #f29d35;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header__navigation {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header__menu-link {
+  font-family: "Itim";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.header__navigation-buy {
+  font-family: "Itim";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 9px 12px;
+  background: rgba(50, 88, 166, 0.75);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 29px;
+}
+
+.story {
+  padding-top: 50px;
+  background: #622bd9;
+}
+
+.story-block {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.story-text {
+  font-family: "Itim";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 700px;
+}
+
+.tobuy {
+  padding-top: 50px;
+  background: #622bd9;
+}
+
+.tobuy__list {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.tobuy__item {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+  background: rgba(50, 88, 166, 0.75);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 115px;
+  padding: 60px 30px;
+}
+
+.tobuy__item-title {
+  font-family: "Itim";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 40px;
+}
+
+.tobuy__item-text {
+  font-family: "Itim";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 815px;
+}
+
+.tobuy__hidden {
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+  margin-top: 110px;
+}
+
+.tobuy__hidden-block {
+  width: 650px;
+  height: 650px;
+  background: rgba(50, 88, 166, 0.75);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 45px;
+}
+
+.nomics {
+  padding-top: 50px;
+  background: #622bd9;
+}
+
+.nomics__block {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.map {
+  padding-top: 50px;
+  background: #622bd9;
+}
+
+.map__block {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  background: #622bd9;
+}
+
+.contacts__content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 130px;
+}
+
+.contacts__content-title {
+  font-family: "Itim";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 70px;
+}
+.contacts__content-text {
+  font-family: "Itim";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer {
+  background: #4112a6;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 33px 0;
+}
+
+.footer__text {
+  font-family: "Harmattan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+
+  color: #000000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
